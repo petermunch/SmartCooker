@@ -2,11 +2,42 @@
 
 {% block head %}
 	<h1>{{ header_text }}</h1>
+    <h3>{{ sub_header }}</h3>
 {% end %}
 
 {% block body %}
 	<div id="content">
-		<p>Hi!<p>
+		<div class="row">
+			<div class="small-6 columns">
+				<div class="panel radius">
+					<div id="info">
+                        <h4>Indstillinger</h4>
+                        <table>
+                            <tr><td>Opskrift:</td><td>{{ recipe_name }}</td></tr>
+                            <tr><td>Setpunkt Grill:</td><td>{{ setpoint_grill }}</td></tr>
+                            <tr><td>Setpunkt Food:</td><td>{{ setpoint_food }}</td></tr>
+                            <tr><td>Tilberedelses Tid:</td><td>{{ cooking_time }}</td></tr>
+                            <tr><td>Advarsel med Email:</td><td>{{ email_alert }}</td></tr>
+                            <tr><td>Simulering:</td><td>{{ simulation }}</td></tr>
+                        </table>
+                        <a href="{{ btn_start }}" class="button [radius round]">Start Button</a>
+					</div>
+				</div>
+            </div>
+            <div class="small-6 columns">
+				<div class="panel radius">
+					<div id="actual_info">
+                        <h4>Cooking Data</h4>
+                        <ul class="no-bullet">
+						    <li>Grill Temp: {{ grill_temp }}</li>
+						    <li>Pit Temp: {{ pit_temp }}</li>
+						    <li>Forløbet Tid: {{ elapsed_time }}</li>
+						    <li>Tilbageværende Tid: {{ remaining_time }}</li>
+                        </ul>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 {% end %}
 
