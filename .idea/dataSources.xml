@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1080101933">
+    <data-source source="LOCAL" name="temperatures" uuid="8ee60dd8-953e-440f-80b5-5fac7196fcdd">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:F:\Sandboxing\SmartCooker\database\dbs\temperatures.db</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="temperatures [2]" uuid="05953bcc-f3e2-4226-a629-37203e8e8b6a">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:F:\Sandboxing\SmartCooker\database\dbs\temperatures.db</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

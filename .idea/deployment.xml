@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="BBB" uploadOnCheckin="6a2ae0de-e8d7-4a17-9d4f-125357792dd5" compareModeInSync="SIZE" showNewOnSourceInSync="false">
+    <serverData>
+      <paths name="BBB">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/SmartCooker" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="BBB" />
+  </component>
+</project>
+
